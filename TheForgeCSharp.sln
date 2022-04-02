@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OS", "..\The-Forge\Examples_3\Unit_Tests\PC Visual Studio 2017\Libraries\OS\OS.vcxproj", "{30DD3D57-0026-48C8-BFD1-6392F319E23A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "..\The-Forge\Examples_3\Unit_Tests\PC Visual Studio 2017\Libraries\Renderer\Renderer.vcxproj", "{DB6193E0-3C12-450F-B344-DC4DAED8C421}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpirvTools", "..\The-Forge\Examples_3\Unit_Tests\PC Visual Studio 2017\Libraries\Tools\SpirvCross.vcxproj", "{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{015F8FA6-A271-4E84-9171-1B3049F9AB60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gainputstatic", "..\The-Forge\Common_3\ThirdParty\OpenSource\gainput\Win64\lib\gainputstatic.vcxproj", "{C5D0E437-7C52-3132-80E6-3CBE834313EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssetPipelineCmd", "..\The-Forge\Common_3\Tools\AssetPipeline\Win64\AssetPipelineCmd.vcxproj", "{9BB45EC2-8F3A-4D98-A235-40EBBB559F64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basisu", "..\The-Forge\Common_3\ThirdParty\OpenSource\basis_universal\basisu.vcxproj", "{59586A07-8E7E-411D-BC3D-387E039AA423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DD3D57-0026-48C8-BFD1-6392F319E23A}.Debug|x64.ActiveCfg = Debug|x64
+		{30DD3D57-0026-48C8-BFD1-6392F319E23A}.Debug|x64.Build.0 = Debug|x64
+		{30DD3D57-0026-48C8-BFD1-6392F319E23A}.Release|x64.ActiveCfg = Release|x64
+		{30DD3D57-0026-48C8-BFD1-6392F319E23A}.Release|x64.Build.0 = Release|x64
+		{DB6193E0-3C12-450F-B344-DC4DAED8C421}.Debug|x64.ActiveCfg = Debug|x64
+		{DB6193E0-3C12-450F-B344-DC4DAED8C421}.Debug|x64.Build.0 = Debug|x64
+		{DB6193E0-3C12-450F-B344-DC4DAED8C421}.Release|x64.ActiveCfg = Release|x64
+		{DB6193E0-3C12-450F-B344-DC4DAED8C421}.Release|x64.Build.0 = Release|x64
+		{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF}.Debug|x64.ActiveCfg = Debug|x64
+		{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF}.Debug|x64.Build.0 = Debug|x64
+		{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF}.Release|x64.ActiveCfg = Release|x64
+		{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF}.Release|x64.Build.0 = Release|x64
+		{C5D0E437-7C52-3132-80E6-3CBE834313EF}.Debug|x64.ActiveCfg = Debug|x64
+		{C5D0E437-7C52-3132-80E6-3CBE834313EF}.Debug|x64.Build.0 = Debug|x64
+		{C5D0E437-7C52-3132-80E6-3CBE834313EF}.Release|x64.ActiveCfg = Release|x64
+		{C5D0E437-7C52-3132-80E6-3CBE834313EF}.Release|x64.Build.0 = Release|x64
+		{9BB45EC2-8F3A-4D98-A235-40EBBB559F64}.Debug|x64.ActiveCfg = Debug|x64
+		{9BB45EC2-8F3A-4D98-A235-40EBBB559F64}.Debug|x64.Build.0 = Debug|x64
+		{9BB45EC2-8F3A-4D98-A235-40EBBB559F64}.Release|x64.ActiveCfg = Release|x64
+		{9BB45EC2-8F3A-4D98-A235-40EBBB559F64}.Release|x64.Build.0 = Release|x64
+		{59586A07-8E7E-411D-BC3D-387E039AA423}.Debug|x64.ActiveCfg = Debug|x64
+		{59586A07-8E7E-411D-BC3D-387E039AA423}.Debug|x64.Build.0 = Debug|x64
+		{59586A07-8E7E-411D-BC3D-387E039AA423}.Release|x64.ActiveCfg = Release|x64
+		{59586A07-8E7E-411D-BC3D-387E039AA423}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3C4507C-E714-4773-AF45-5FA9FB0BB4AF} = {015F8FA6-A271-4E84-9171-1B3049F9AB60}
+		{C5D0E437-7C52-3132-80E6-3CBE834313EF} = {015F8FA6-A271-4E84-9171-1B3049F9AB60}
+		{9BB45EC2-8F3A-4D98-A235-40EBBB559F64} = {015F8FA6-A271-4E84-9171-1B3049F9AB60}
+		{59586A07-8E7E-411D-BC3D-387E039AA423} = {015F8FA6-A271-4E84-9171-1B3049F9AB60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23135CC2-3852-49CB-9867-D97F3E87E372}
+	EndGlobalSection
+EndGlobal
